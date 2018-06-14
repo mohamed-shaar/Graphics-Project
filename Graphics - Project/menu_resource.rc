@@ -1,0 +1,42 @@
+#include "menu_header.h"
+
+MY_MENU_ID MENU
+
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save", MY_SAVE_MENU_ID
+        MENUITEM "&Load", MY_LOAD_MENU_ID
+        MENUITEM "&EXIT", MY_FILE_EXIT_ID
+    END
+    POPUP "&Line"
+    BEGIN
+        MENUITEM "&Simple Line", MY_LINE_DIRECT_ID
+        MENUITEM "&DDA", MY_LINE_DDA_ID
+        MENUITEM "&Midpoint", MY_LINE_MIDPOINT_ID
+    END
+    POPUP "&Circle"
+    BEGIN
+        MENUITEM "&Direct", MY_DirectCircle_MENU_ID
+        MENUITEM "&Midpoint", MY_MIDPOINTCIRCLE_MENU_ID
+        MENUITEM "&Polar", MY_POLARCIRCLE_MENU_ID
+    END
+    POPUP "&Clip"
+    BEGIN
+        MENUITEM "&Line Clip", MY_CLIP_LINE_MENU_ID
+        MENUITEM "&Polygon Clip", MY_CLIP_POLYGON_MENU_ID
+    END
+    POPUP "&Fill"
+    BEGIN
+        MENUITEM "&Flood Filling", MY_FLOOD_FILLING_MENU_ID
+    END
+    POPUP "&Curves"
+    BEGIN
+        MENUITEM "&Bezier", MY_BEZIER_MENU_ID
+        MENUITEM "&Hermit", MY_HERMIT_MENU_ID
+    END
+    POPUP "&Polygon"
+    BEGIN
+        MENUITEM "&Polygon", MY_POLYGON_MENU_ID
+    END
+END

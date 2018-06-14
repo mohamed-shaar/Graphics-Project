@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1522311437 source:c:\users\shaar\desktop\graphics - assignment 3\main.cpp
+	<tchar.h>
+	<windows.h>
+	"menu_header.h"
+	<math.h>
+
+1522310202 c:\users\shaar\desktop\graphics - assignment 3\menu_header.h
+
+1522310207 source:c:\users\shaar\desktop\graphics - assignment 3\menu_resource.rc
+	"menu_header.h"
+
+1525956246 source:e:\university\third year\second term\graphics\graphics - assignment 3\main.cpp
+	<tchar.h>
+	<windows.h>
+	"menu_header.h"
+	<math.h>
+	<stack>
+	<vector>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1525948654 e:\university\third year\second term\graphics\graphics - assignment 3\menu_header.h
+
+1525948654 source:e:\university\third year\second term\graphics\graphics - assignment 3\menu_resource.rc
+	"menu_header.h"
+
+1525957367 source:e:\university\third year\second term\graphics\graphics - project\main.cpp
+	<tchar.h>
+	<windows.h>
+	"menu_header.h"
+	<math.h>
+	<stack>
+	<vector>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1525948654 e:\university\third year\second term\graphics\graphics - project\menu_header.h
+
+1525948654 source:e:\university\third year\second term\graphics\graphics - project\menu_resource.rc
+	"menu_header.h"
+
