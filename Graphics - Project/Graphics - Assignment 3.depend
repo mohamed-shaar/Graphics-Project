@@ -42,3 +42,19 @@
 1525948654 source:e:\university\third year\second term\graphics\graphics - project\menu_resource.rc
 	"menu_header.h"
 
+1532701333 source:e:\projects\graphics-project\graphics - project\menu_resource.rc
+	"menu_header.h"
+
+1532701333 e:\projects\graphics-project\graphics - project\menu_header.h
+
+1532701503 source:e:\projects\graphics-project\graphics - project\main.cpp
+	<tchar.h>
+	<windows.h>
+	"menu_header.h"
+	<math.h>
+	<stack>
+	<vector>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+

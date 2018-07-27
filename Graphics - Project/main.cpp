@@ -354,8 +354,8 @@ Point Vintersect(double xs, double ys, double xe, double ye, int xedge)
 Point Hintersect(double xs, double ys, double xe, double ye, int yedge)
 {
 	Point temp;
-	temp.x = yedge;
-	temp.y = ((yedge - ys)*(xe - xs) / (double)(ye - ys)) + xs;
+	temp.y = yedge;
+	temp.x = ((yedge - ys)*(xe - xs) / (double)(ye - ys)) + xs;
 	return temp;
 }
 
